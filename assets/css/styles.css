@@ -1,0 +1,54 @@
+
+.imgQuemSomos {
+    height: 200px;
+    width: 200px;
+}
+
+.bg-site {
+    background-color: rgb(43, 43, 43)
+}
+
+.navText {
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.borderGreen {
+    border: 2px solid rgb(60, 96, 7);
+}
+
+.CarouselItem {
+    height:80vh;
+    object-fit: cover;
+}
+
+.cardItem {
+    width: 240px;
+    height: 450px;
+}
+
+.imgCard {
+    height: 70%;
+    width: 95%;
+    object-fit: cover;
+}
+
+.pQuem {
+    color: #fff;
+    max-width: 70%;
+}
+
+.imgTeam {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    object-fit: cover;
+}
+
+h3 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+p {
+    color: #fff;
+}

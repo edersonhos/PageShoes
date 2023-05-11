@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./media/brand.png" type="image/x-icon">
+    <title>WebShoes</title>
+</head>
+
+
+<body>   
+<!-- menu nav -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark fixed-top" data-bs-theme="dark">
+    <div class="container-fluid" style="max-width: 1200px;">
+        <a class="navbar-brand navText" href=""><img src="./media/brand.png" alt="" style="width: 30px;"> WebShoes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link navText" href="#produtos">Produtos</a>
+                <a class="nav-link navText" href="#nossoTime">Nosso time</a>
+                <a class="nav-link navText" href="#quemSomos">Quem somos</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- menu end-->
+
+<!-- carousel-->
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./media/Frete Gratis Na primeira compra.jpg" class="d-block w-100 CarouselItem" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Frete gratis na primeira compra</h1>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./media/Entregas no Brasil.jpg" class="d-block w-100 CarouselItem" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Entregamos em todo Brasil</h1>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./media/todos.jpg" class="d-block w-100 CarouselItem" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Estar na moda e para todos</h1>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./media/rapido.jpg" class="d-block w-100 CarouselItem" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Temos lojas em todo Brasil</h1>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Proximo</span>
+    </button>
+</div>
+<!-- carousel end-->
+
+<!-- Produtos-->
+<div class="container-fluid bg-site">
+    <h1 class="text-center navText" style="color: #fff;padding-top: 50px;" id="produtos">Produtos</h1>
+    <div class="container-fluid">
+        <div class="container-fluid row d-flex justify-content-center" style="padding-top: 50px;padding-bottom: 50px;">
+            <div class="card m-1 flex-column align-items-center borderGreen cardItem">
+                <img src="./media/air force.jpg" class="card-img-top imgCard" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title text-center m-0">Air Force</h3>
+                    <h2 class="card-text text-center">R$ 249,99</h2>
+                    <a href="#" class="btn btn-success">Adicionar ao carinho</a>
+                </div>
+            </div>
+            <div class="card m-1 flex-column align-items-center borderGreen cardItem">
+                <img src="./media/nike dunk.jpg" class="card-img-top imgCard" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title text-center m-0">Nike dunk</h3>
+                    <h2 class="card-text text-center">R$ 422,99</h2>
+                    <a href="#" class="btn btn-success">Adicionar ao carinho</a>
+                </div>
+            </div>
+            <div class="card m-1 flex-column align-items-center borderGreen cardItem">
+                <img src="./media/12 molas.jpg" class="card-img-top imgCard" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title text-center m-0">12 molas</h3>
+                    <h2 class="card-text text-center">R$ 614,99</h2>
+                    <a href="#" class="btn btn-success">Adicionar ao carinho</a>
+                </div>
+            </div>
+            <div class="card m-1 flex-column align-items-center borderGreen cardItem">
+                <img src="./media/vans.png" class="card-img-top imgCard" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title text-center m-0">Vans</h3>
+                    <h2 class="card-text text-center">R$ 199,99</h2>
+                    <a href="#" class="btn btn-success">Adicionar ao carinho</a>
+                </div>
+            </div>
+            <div class="card m-1 flex-column align-items-center borderGreen cardItem">
+                <img src="./media/ous.jpg" class="card-img-top imgCard" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title text-center m-0">Ous</h3>
+                    <h2 class="card-text text-center">R$ 799,99</h2>
+                    <a href="#" class="btn btn-success">Adicionar ao carinho</a>
+                </div>
+            </div>
+            <div class="card m-1 flex-column align-items-center borderGreen cardItem">
+                <img src="./media/puma.jpg" class="card-img-top imgCard" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title text-center m-0">Lex Safari</h3>
+                    <h2 class="card-text text-center">R$ 599,99</h2>
+                    <a href="#" class="btn btn-success">Adicionar ao carinho</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Produtos end-->
+
+<!-- Nosso time -->
+<div class="container-fluid bg-secondary justify-content-center d-flex">
+    <div class="row align-items-center container-md" style="padding-bottom: 50px;">
+        <h1 class="text-center navText" style="color: #fff;padding-top: 50px;padding-bottom: 50px;" id="nossoTime">Nosso time</h1>
+        <div class="col d-flex justify-content-center align-items-center flex-column bg-secondary p-2" >
+            <img src="./media/pessoa3.jpg" alt="" class="imgTeam borderGreen">
+            <div>
+                <h3 class="text-center m-1">Maria</h3>
+                <p class="text-center">Gerente de Marketing</p>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center align-items-center flex-column bg-secondary p-2" >
+            <img src="./media/pessoa 2.png" alt="" class="imgTeam borderGreen">
+            <div>
+                <h3 class="text-center m-1">João</h3>
+                <p class="text-center">Fundador empresa</p>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center align-items-center flex-column bg-secondary p-2" >
+            <img src="./media/pessoa1.jpg" alt="" class="imgTeam borderGreen">
+            <div>
+                <h3 class="text-center m-1">Vitor</h3>
+                <p class="">Chefe de entregas</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Nosso time end-->
+
+<!-- Quem somos-->
+<div class="container-fluid bg-site">
+    <div class="row align-items-center" style="padding-bottom: 80px;">
+        <h1 class="text-center navText" style="color: #fff;padding-top: 50px;padding-bottom: 10px;" id="quemSomos">Quem Somos</h1>
+        <div class="col d-flex justify-content-center align-items-center" > 
+            <img src="./media/fabrica-de-tenis.jpg" alt="" style="height: 200px;border-radius: 2%;border: 2px solid rgb(60, 96, 7);">
+        </div>
+        <div class="col" >
+            <p class="navText pQuem">Somos uma empresa especializada em sapatos com foco no consumidor. Fundada em 2005 a WebShoes vem desde la se posicionando no mercado digital como a maior vendedora de sapatos online do Brasil. Atualmente temos mais de 15 franquias fisicas no Brasil, e 17 anos de experiencia no mercado digital.</p>
+        </div>
+    </div>
+</div>
+<!-- Quem somos end-->
+
+<!-- Footer -->
+<footer>
+    <div class="container-fluid bg-site navText" style="height: 50px;font-size: 12px;">
+        <p>Plaza Sul Shopping Center, Praça Leonor Kaupa, 100 - Jardim da Saúde, São Paulo - SP, 04151-100 -- Fone:12-981XX-XXXX -- @WebShoes</p>
+    </div>
+</footer>
+<!-- Footer end-->
+
+</body>
+<script src="./assets/js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
